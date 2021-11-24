@@ -1,6 +1,9 @@
-def summing(x, y):
-    sum = x + y
-    print(sum)
+def summing(list):
+    total = 0
+    for n in list:
+        total += n
+    print(total)
 
 
-summing(3, 4)
+payments = [1200, 1300, 2000]
+summing(payments)
