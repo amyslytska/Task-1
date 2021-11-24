@@ -6,4 +6,4 @@ function summing(list){;
     return total;
 };
 const sallary = [12000, 13000, 20000];
-console.log(summing(sallary));)
+console.log(summing(sallary));
