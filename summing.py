@@ -1,10 +1,9 @@
-def sum(list):
+def sum(*args):
     total = 0
-    for n in list:
-        total += n
+    for arg in args:
+        total+= arg
+
     return total
 
-
-payments = [1200, 1300, 2000]
-a = sum(payments)
+a = sum(1200, 300, 500)
 print(a)
